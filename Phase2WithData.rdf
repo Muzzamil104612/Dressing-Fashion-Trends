@@ -27,7 +27,7 @@
         <dc:contributor xml:lang="en">Ioana Bîrsan</dc:contributor>
         <dc:contributor xml:lang="en">Iordan Rață</dc:contributor>
         <dc:contributor xml:lang="en">Oana Gagea</dc:contributor>
-        <dc:creator xml:lang="en">Muzzamil Rani,Tehreem Mumtaz,Nimra Allah Yar,Uzma Nauman</dc:creator>
+        <dc:creator xml:lang="en">Daniel Amariei</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">2015-02</dc:date>
         <rdfs:comment xml:lang="en">The purpose of this ontology is to create the common conceptual framwork for &apos;talking&apos; about clothing or related concepts.</rdfs:comment>
         <rdfs:label xml:lang="en">A common vocabulary for clothing items.</rdfs:label>
