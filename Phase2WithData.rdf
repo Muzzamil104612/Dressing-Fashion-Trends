@@ -27,7 +27,7 @@
         <dc:contributor xml:lang="en">Ioana Bîrsan</dc:contributor>
         <dc:contributor xml:lang="en">Iordan Rață</dc:contributor>
         <dc:contributor xml:lang="en">Oana Gagea</dc:contributor>
-        <dc:creator xml:lang="en">Daniel Amariei</dc:creator>
+        <dc:creator xml:lang="en">Muzzamil Rani,Tehreem Mumtaz,Nimra Allah Yar,Uzma Nauman</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">2015-02</dc:date>
         <rdfs:comment xml:lang="en">The purpose of this ontology is to create the common conceptual framwork for &apos;talking&apos; about clothing or related concepts.</rdfs:comment>
         <rdfs:label xml:lang="en">A common vocabulary for clothing items.</rdfs:label>
@@ -1425,7 +1425,7 @@ Page 2 of Saya</visitedPages>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#Budget1">
         <budgetDetailsUtilizedBy rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#RecommendationSystem1"/>
         <influencesStylingChoicesFor rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#Event1"/>
-        <amount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10000</amount>
+        <amount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5000.0</amount>
         <currency>Rupees</currency>
     </owl:NamedIndividual>
     
@@ -1580,7 +1580,7 @@ Page 2 of Saya</visitedPages>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#Season2">
         <seasonHasSuitableClothingForDressing rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#Clothing1"/>
         <seasonName>Winter</seasonName>
-        <seasonduration>5 months</seasonduration>
+        <seasonduration rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.4</seasonduration>
     </owl:NamedIndividual>
     
 
