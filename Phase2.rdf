@@ -284,6 +284,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#hasShape -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#hasShape">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#Dress"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/resource/Shape"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#hasSize -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#hasSize">
