@@ -1126,6 +1126,7 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Event"/>
+        <rdfs:comment>dbo:Colourss</rdfs:comment>
         <rdfs:label>dbo:Colour</rdfs:label>
     </owl:Class>
     
@@ -1300,6 +1301,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#CasualEvents">
         <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Event"/>
+        <rdfs:comment>CasualEvent</rdfs:comment>
         <rdfs:label>CasualEvents</rdfs:label>
     </owl:Class>
     
@@ -1421,6 +1423,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#FormalEvents">
         <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Event"/>
+        <rdfs:comment>FormalEvent</rdfs:comment>
         <rdfs:label>FormalEvents</rdfs:label>
     </owl:Class>
     
