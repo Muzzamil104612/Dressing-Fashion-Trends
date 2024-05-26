@@ -609,6 +609,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#suitableForBodyShape -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#suitableForBodyShape">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#Dress"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#BodyShape"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#useRecommendationsgeneratedBy -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#useRecommendationsgeneratedBy">
@@ -991,6 +1000,7 @@
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Event"/>
         <rdfs:label>dbo:Colour</rdfs:label>
     </owl:Class>
     
