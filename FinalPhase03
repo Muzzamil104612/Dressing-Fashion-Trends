@@ -1126,7 +1126,7 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Event"/>
-        <rdfs:comment>dbo:Colourss</rdfs:comment>
+        <rdfs:comment>dbo:Colours</rdfs:comment>
         <rdfs:label>dbo:Colour</rdfs:label>
     </owl:Class>
     
@@ -1293,6 +1293,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#BusinessMeeting">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#FormalEvents"/>
         <rdfs:label>BusinessMeeting</rdfs:label>
+ <rdfs:comment>BusinessMeetings</rdfs:comment>
     </owl:Class>
     
 
@@ -1321,6 +1322,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#Club">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#FormalEvents"/>
         <rdfs:label>Club</rdfs:label>
+   <rdfs:comment>Clubs</rdfs:comment>
     </owl:Class>
     
 
@@ -1340,6 +1342,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#DinnerParty">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#FormalEvents"/>
         <rdfs:label>DinnerParty</rdfs:label>
+   <rdfs:comment>DinnerPartys</rdfs:comment>
     </owl:Class>
     
 
@@ -1434,6 +1437,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#Funneral">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#CasualEvents"/>
         <rdfs:label>Funneral</rdfs:label>
+   <rdfs:comment>Funnerals</rdfs:comment>
     </owl:Class>
     
 
@@ -1464,6 +1468,8 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#Interview">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#BusinessMeeting"/>
         <rdfs:label xml:lang="en">Interview</rdfs:label>
+  
+          <rdfs:comment>Interviews</rdfs:comment>
     </owl:Class>
     
 
@@ -1513,6 +1519,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#PyjamaParty">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#FormalEvents"/>
         <rdfs:label xml:lang="en">Pyjama party</rdfs:label>
+   <rdfs:comment>PyjamaPartys</rdfs:comment>
     </owl:Class>
     
 
@@ -1648,6 +1655,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#Wedding">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#FormalEvents"/>
         <rdfs:label>Wedding</rdfs:label>
+   <rdfs:comment>Weddings</rdfs:comment>
     </owl:Class>
     
 
