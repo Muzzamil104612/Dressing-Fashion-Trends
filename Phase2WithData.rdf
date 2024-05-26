@@ -446,7 +446,7 @@
     <!-- http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#isRelatedToByFashionTrend -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#isRelatedToByFashionTrend">
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#relatedToFashionBrand"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#relatedToFashionTrend"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#FashionTrend"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#StylingTips"/>
     </owl:ObjectProperty>
@@ -457,7 +457,7 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#isSizeOf">
         <rdfs:domain rdf:resource="http://dbpedia.org/resource/Clothing_sizes"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#Dress"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/resource/Clothing"/>
     </owl:ObjectProperty>
     
 
