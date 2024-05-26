@@ -1519,7 +1519,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#PyjamaParty">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#FormalEvents"/>
         <rdfs:label xml:lang="en">Pyjama party</rdfs:label>
-   <rdfs:comment>PyjamaParties</rdfs:comment>
+   <rdfs:comment>Parties at Night</rdfs:comment>
     </owl:Class>
     
 
