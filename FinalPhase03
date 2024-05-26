@@ -1078,6 +1078,7 @@
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </owl:equivalentClass>
+        <rdfs:comment>Event</rdfs:comment>
         <rdfs:label>dbo:Event</rdfs:label>
     </owl:Class>
     
@@ -1114,6 +1115,7 @@
     <!-- http://dbpedia.org/resource/Clothing_sizes -->
 
     <owl:Class rdf:about="http://dbpedia.org/resource/Clothing_sizes">
+        <rdfs:comment>Clothing_sizes</rdfs:comment>
         <rdfs:label>dbpedia:Clothing_sizes</rdfs:label>
     </owl:Class>
     
@@ -1137,6 +1139,7 @@
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </owl:equivalentClass>
+        <rdfs:comment>Season</rdfs:comment>
         <rdfs:label>dbpedia:Season</rdfs:label>
     </owl:Class>
     
@@ -1145,6 +1148,7 @@
     <!-- http://dbpedia.org/resource/Shape -->
 
     <owl:Class rdf:about="http://dbpedia.org/resource/Shape">
+        <rdfs:comment>Shape</rdfs:comment>
         <rdfs:label>dbpedia:Shape</rdfs:label>
     </owl:Class>
     
@@ -1160,6 +1164,7 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment>Weathers</rdfs:comment>
         <rdfs:label>dbpedia:Weather</rdfs:label>
     </owl:Class>
     
@@ -1190,6 +1195,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#BodyShape">
         <rdfs:subClassOf rdf:resource="http://dbpedia.org/resource/Shape"/>
+        <rdfs:comment>BodyShapes</rdfs:comment>
         <rdfs:label>BodyShape</rdfs:label>
     </owl:Class>
     
@@ -1198,6 +1204,7 @@
     <!-- http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#BrowsingHistory -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#BrowsingHistory">
+        <rdfs:comment>BrowsingHistorys</rdfs:comment>
         <rdfs:label>BrowsingHistory</rdfs:label>
     </owl:Class>
     
@@ -1206,6 +1213,7 @@
     <!-- http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#Budget -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#Budget">
+        <rdfs:comment>Budgets</rdfs:comment>
         <rdfs:label>Budget</rdfs:label>
     </owl:Class>
     
@@ -1232,6 +1240,7 @@
     <!-- http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#ClothingTexture -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#ClothingTexture">
+        <rdfs:comment>ClothingTextures</rdfs:comment>
         <rdfs:label>ClothingTexture</rdfs:label>
     </owl:Class>
     
@@ -1250,6 +1259,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#Coat">
         <rdfs:subClassOf rdf:resource="http://dbpedia.org/resource/Clothing"/>
+        <rdfs:comment>Coats</rdfs:comment>
         <rdfs:label>Coat</rdfs:label>
     </owl:Class>
     
@@ -1304,6 +1314,7 @@
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </owl:equivalentClass>
+        <rdfs:comment>Dresses</rdfs:comment>
         <rdfs:label>Dress</rdfs:label>
     </owl:Class>
     
@@ -1312,6 +1323,7 @@
     <!-- http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#FashionBrand -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#FashionBrand">
+        <rdfs:comment>FashionBrands</rdfs:comment>
         <rdfs:label>FashionBrand</rdfs:label>
     </owl:Class>
     
@@ -1331,6 +1343,7 @@
                 </owl:unionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:comment>FashionTrends</rdfs:comment>
         <rdfs:label>FashionTrend</rdfs:label>
     </owl:Class>
     
@@ -1359,6 +1372,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#FunneralClothing">
         <rdfs:subClassOf rdf:resource="http://dbpedia.org/resource/Clothing"/>
         <rdfs:comment xml:lang="en">Clothing that is suitable for a funneral.</rdfs:comment>
+        <rdfs:comment>FunneralClothings</rdfs:comment>
         <rdfs:label>FunneralClothing</rdfs:label>
     </owl:Class>
     
@@ -1368,6 +1382,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#Gloves">
         <rdfs:subClassOf rdf:resource="http://dbpedia.org/resource/Clothing"/>
+        <rdfs:comment>Glove</rdfs:comment>
         <rdfs:label>Gloves</rdfs:label>
     </owl:Class>
     
@@ -1387,6 +1402,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#Jeans">
         <rdfs:subClassOf rdf:resource="http://dbpedia.org/resource/Clothing"/>
         <dbo:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://raw.githubusercontent.com/danielamariei/clothing-ontology/master/thumbnails/jeans.png</dbo:thumbnail>
+        <rdfs:comment>Jean</rdfs:comment>
         <rdfs:label xml:lang="en">Jeans</rdfs:label>
     </owl:Class>
     
@@ -1395,6 +1411,7 @@
     <!-- http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#OutfitPlanning -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#OutfitPlanning">
+        <rdfs:comment>OutfitPlannings</rdfs:comment>
         <rdfs:label>OutfitPlanning</rdfs:label>
     </owl:Class>
     
@@ -1414,6 +1431,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#Pyjama">
         <rdfs:subClassOf rdf:resource="http://dbpedia.org/resource/Clothing"/>
         <dbo:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://raw.githubusercontent.com/danielamariei/clothing-ontology/master/thumbnails/pyjama.png</dbo:thumbnail>
+        <rdfs:comment>Pyjamas</rdfs:comment>
         <rdfs:label xml:lang="en">Pyjama</rdfs:label>
     </owl:Class>
     
@@ -1432,6 +1450,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#RainCoat">
         <rdfs:subClassOf rdf:resource="http://dbpedia.org/resource/Clothing"/>
+        <rdfs:comment>FunneralClothings</rdfs:comment>
         <rdfs:label>FunneralClothing</rdfs:label>
     </owl:Class>
     
@@ -1440,6 +1459,7 @@
     <!-- http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#RecommendationSystem -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#RecommendationSystem">
+        <rdfs:comment>RecommendationSystems</rdfs:comment>
         <rdfs:label>RecommendationSystem</rdfs:label>
     </owl:Class>
     
@@ -1449,6 +1469,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#RegularFitTrousers">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#Trousers"/>
+        <rdfs:comment>RegularFitTrouser</rdfs:comment>
         <rdfs:label>RegularFitTrousers</rdfs:label>
     </owl:Class>
     
@@ -1458,6 +1479,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#Shirt">
         <rdfs:subClassOf rdf:resource="http://dbpedia.org/resource/Clothing"/>
+        <rdfs:comment>Shirts</rdfs:comment>
         <rdfs:label>Shirt</rdfs:label>
     </owl:Class>
     
@@ -1468,6 +1490,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#SkinnyFitTrousers">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#Trousers"/>
         <dbo:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://raw.githubusercontent.com/danielamariei/clothing-ontology/master/thumbnails/skinny-fit-trousers.png</dbo:thumbnail>
+        <rdfs:comment>SkinnyFitTrouser</rdfs:comment>
         <rdfs:label>SkinnyFitTrousers</rdfs:label>
     </owl:Class>
     
@@ -1477,6 +1500,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#Skirt">
         <rdfs:subClassOf rdf:resource="http://dbpedia.org/resource/Clothing"/>
+        <rdfs:comment>Skirts</rdfs:comment>
         <rdfs:label>Skirt</rdfs:label>
     </owl:Class>
     
@@ -1487,6 +1511,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#SlimFitTrousers">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#Trousers"/>
         <dbo:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://raw.githubusercontent.com/danielamariei/clothing-ontology/master/thumbnails/slim-fit-trousers.png</dbo:thumbnail>
+        <rdfs:comment>SlimFitTrouser</rdfs:comment>
         <rdfs:label>SlimFitTrousers</rdfs:label>
     </owl:Class>
     
@@ -1505,6 +1530,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#Suit">
         <rdfs:subClassOf rdf:resource="http://dbpedia.org/resource/Clothing"/>
+        <rdfs:comment>Suits</rdfs:comment>
         <rdfs:label>Suit</rdfs:label>
     </owl:Class>
     
@@ -1515,6 +1541,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#TShirt">
         <rdfs:subClassOf rdf:resource="http://dbpedia.org/resource/Clothing"/>
         <dbo:thumbnail rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://raw.githubusercontent.com/danielamariei/clothing-ontology/master/thumbnails/t-shirt.png</dbo:thumbnail>
+        <rdfs:comment>TShirts</rdfs:comment>
         <rdfs:label>TShirt</rdfs:label>
     </owl:Class>
     
@@ -1524,6 +1551,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#Top">
         <rdfs:subClassOf rdf:resource="http://dbpedia.org/resource/Clothing"/>
+        <rdfs:comment>Tops</rdfs:comment>
         <rdfs:label xml:lang="en">Top</rdfs:label>
     </owl:Class>
     
@@ -1538,6 +1566,7 @@
             <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#SkinnyFitTrousers"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#SlimFitTrousers"/>
         </owl:disjointUnionOf>
+        <rdfs:comment>Trouser</rdfs:comment>
         <rdfs:label>Trousers</rdfs:label>
     </owl:Class>
     
@@ -1567,6 +1596,7 @@
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </owl:equivalentClass>
+        <rdfs:comment>Persons</rdfs:comment>
         <rdfs:label>Person</rdfs:label>
     </owl:Class>
     
