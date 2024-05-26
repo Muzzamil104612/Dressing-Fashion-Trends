@@ -242,6 +242,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#fashionBrandRelatedTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#fashionBrandRelatedTo">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#shapeOf"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#relatedToFashionBrand"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#FashionBrand"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#StylingTips"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#generatesRecommendationsFor -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#generatesRecommendationsFor">
@@ -273,6 +284,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#hasRecommendedDress -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#hasRecommendedDress">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#suitableForBodyShape"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#BodyShape"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#Dress"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#hasRelatedEvent -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#hasRelatedEvent">
@@ -287,6 +308,7 @@
     <!-- http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#hasShape -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#hasShape">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#shapeOf"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#Dress"/>
         <rdfs:range rdf:resource="http://dbpedia.org/resource/Shape"/>
     </owl:ObjectProperty>
@@ -604,6 +626,15 @@
         <rdfs:range rdf:resource="http://dbpedia.org/resource/Clothing"/>
         <rdfs:comment xml:lang="en">This property specifies the clothing item(s) that is/are suitable for a particular season.</rdfs:comment>
         <rdfs:label xml:lang="en">Season has suitable clothing for dressing</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#shapeOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#shapeOf">
+        <rdfs:domain rdf:resource="http://dbpedia.org/resource/Shape"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#Dress"/>
     </owl:ObjectProperty>
     
 
