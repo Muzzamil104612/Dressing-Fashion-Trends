@@ -1626,7 +1626,118 @@ Page 2 of Saya</visitedPages>
         <weatherHasSuitableClothingForDressing rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#Clothing1"/>
         <weatherName>Rainy</weatherName>
     </owl:NamedIndividual>
+
+
+    <!-- isPartOf and hasPart -->
+    <owl:ObjectProperty rdf:about="http://www.ontologydesignpatterns.org/cp/owl/partof.owl#hasPart">
+        <owl:inverseOf rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/partof.owl#isPartOf"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="http://www.ontologydesignpatterns.org/cp/owl/partof.owl#isPartOf">
+        <owl:inverseOf rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/partof.owl#hasPart"/>
+    </owl:ObjectProperty>
+
+    <!-- dressSize and hasDressSize -->
+    <owl:ObjectProperty rdf:about="http://dbpedia.org/property/dressSize">
+        <owl:inverseOf rdf:resource="http://dbpedia.org/property/hasDressSize"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="http://dbpedia.org/property/hasDressSize">
+        <owl:inverseOf rdf:resource="http://dbpedia.org/property/dressSize"/>
+    </owl:ObjectProperty>
+
+    <!-- hasSize and sizeOf -->
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#hasSize">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#sizeOf"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#sizeOf">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#hasSize"/>
+    </owl:ObjectProperty>
+
+    <!-- hasTexture and textureOf -->
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#hasTexture">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#textureOf"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#textureOf">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#hasTexture"/>
+    </owl:ObjectProperty>
+
+    <!-- relatedToFashionTrend and fashionTrendRelatedTo -->
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#relatedToFashionTrend">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#fashionTrendRelatedTo"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#fashionTrendRelatedTo">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#relatedToFashionTrend"/>
+    </owl:ObjectProperty>
+
+    <!-- associatedWithFashionTrend and fashionTrendAssociatedWith -->
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#associatedWithFashionTrend">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#fashionTrendAssociatedWith"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#fashionTrendAssociatedWith">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#associatedWithFashionTrend"/>
+    </owl:ObjectProperty>
+
+    <!-- belongsTo and contains -->
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#belongsTo">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#contains"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#contains">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#belongsTo"/>
+    </owl:ObjectProperty>
+
+    <!-- hasColour and colourOf -->
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#hasColour">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#colourOf"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#colourOf">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#hasColour"/>
+    </owl:ObjectProperty>
+
+    <!-- relatedToFashionBrand and fashionBrandRelatedTo -->
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#relatedToFashionBrand">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#fashionBrandRelatedTo"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#fashionBrandRelatedTo">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#relatedToFashionBrand"/>
+    </owl:ObjectProperty>
+
+    <!-- isManufacteredBy and manufactures -->
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#isManufacteredBy">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#manufactures"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#manufactures">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#isManufacteredBy"/>
+    </owl:ObjectProperty>
+
+    <!-- hasRelatedEvent and relatedEventOf -->
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#hasRelatedEvent">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#relatedEventOf"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#relatedEventOf">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#hasRelatedEvent"/>
+    </owl:ObjectProperty>
+
+    <!-- relatedToEvent and eventRelatedTo -->
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#relatedToEvent">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#eventRelatedTo"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#eventRelatedTo">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2015/02/semcloth.owl#relatedToEvent"/>
+    </owl:ObjectProperty>
+
 </rdf:RDF>
+
 
 
 
